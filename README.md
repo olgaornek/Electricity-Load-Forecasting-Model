@@ -33,8 +33,7 @@ Objective of the project is to predict hourly SYSLoad for January 2007 using dat
 - Created working_day feature using holiday list
 - Derived day_of_week (0 = Monday … 6 = Sunday)
 - Generated dummy variables for day-of-week categories
-- Prepared dataset for model training using encoded and structured predictors<img width="2060" height="438" alt="image" src="https://github.com/user-attachments/assets/2f980948-836b-4eae-b61d-b7fe33aa739d" />
-
+- Prepared dataset for model training using encoded and structured predictors
 
 
 
