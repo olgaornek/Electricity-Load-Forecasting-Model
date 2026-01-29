@@ -39,8 +39,8 @@ Objective of the project is to predict hourly SYSLoad for January 2007 using dat
 Two data-driven models were developed and compared: Random Forecast Regressor and Artificial Neural Network.
 
 ### Random Forecast Regrssor
-Training–Validation Split: 80% training data (2004–mid 2006) and 20% validation data (mid 2006–end of 2006)
-Finding the best parameters for a Random Forest model: Random Search
+- Training–Validation Split: 80% training data (2004–mid 2006) and 20% validation data (mid 2006–end of 2006)
+- Finding the best parameters for a Random Forest model: Random Search
 
 
 
