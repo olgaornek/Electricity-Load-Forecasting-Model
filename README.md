@@ -36,11 +36,28 @@ Objective of the project is to predict hourly SYSLoad for January 2007 using dat
 - Prepared dataset for model training using encoded and structured predictors
 
 ## Modeling
-Two data-driven models were developed and compared: Random Forecast Regressor and Artificial Neural Network.
+Two data-driven models were developed and compared: Random Forecast Regressor and Artificial Neural Network (ANN).
 
-### Random Forecast Regrssor
-- Training–Validation Split: 80% training data (2004–mid 2006) and 20% validation data (mid 2006–end of 2006)
+### Random Forecast Regressor
+- Training–Validation Split: 80% training data (2004–mid 2006) and 20% validation data (mid 2006–end of 2006). Chronological split to maintain time-series order. 
 - Finding the best hyperparameters for a Random Forest model: Random Search
+- Feature Selection: Random Feature Elimination with Corss-Validations (RFECV)
+
+### ANN
+- Training–Validation Split: 80% training data (2004–mid 2006) and 20% validation data (mid 2006–end of 2006). Chronological split to maintain time-series order.
+- Processing: Applied StandardScaler to all predictor variables. Scaled target variable sys_load for stable optimization.
+
+## Conclusion
+ANN demonstrated superior performance by achieving a lower RMSE and a higher R² on validation data. Owing to its stronger ability to capture complex nonlinear relationships, the ANN model was selected as the final forecasting model and used to generate accurate hourly load predictions for January 2007. 
+
+
+
+
+
+
+
+
+- 
 
 
 
